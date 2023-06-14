@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhn-gps-stkousso-tenant/my-app/devfile-sample-code-with-quarkus-yma3@sha256:67a58bf0d635a15f1f1ecb897246a8d120d6f9df0066defb4d1357ebc15d57e0
+      - image: quay.io/redhat-user-workloads/rhn-gps-stkousso-tenant/my-app/devfile-sample-code-with-quarkus-yma3@sha256:01dec47c17a3ff5c1bde0e7447edbb05bfcaac043a1e08841ff074c91e74f1f1
         name: my-java-quarkus
         resources: {}
 status: {}
