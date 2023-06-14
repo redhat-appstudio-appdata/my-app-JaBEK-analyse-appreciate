@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-code-with-quarkus-yma3
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-user-workloads/rhn-gps-stkousso-tenant/my-app/devfile-sample-code-with-quarkus-yma3@sha256:01dec47c17a3ff5c1bde0e7447edbb05bfcaac043a1e08841ff074c91e74f1f1
         name: my-java-quarkus
         ports:
         - containerPort: 8081
